@@ -1,23 +1,15 @@
 #git-atscale4
 
-# loop through all files in current directory
-for file in *
-do
+0 ile 7 arasındaki rakamların 2'lik sistemdeki ve okuma,yazma, çalıştırma modlarındaki karşılıklarını yazınız.
 
-# check if it is a file
-if [ -f $file ]
-then
+Using octals (Follows binary logic)
 
-if [ -x $file ]
-then
-
-# print the complete file name with -l option
-ls -l $file >> executable.txt
-
-# closing second if statement
-fi
-
-# closing first if statement
-fi
-
-done
+  octal  symbol equivalent 
+0 (000)		---
+1 (001)		--x
+2 (010)		-w-
+3 (011)		-wx
+4 (100)		r--
+5 (101)		r-x
+6 (110)		rw- 
+7 (111)		rwx
