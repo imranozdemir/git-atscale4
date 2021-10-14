@@ -3,8 +3,7 @@
 0 ile 7 arasındaki rakamların 2'lik sistemdeki ve okuma,yazma, çalıştırma modlarındaki karşılıklarını yazınız.
 
 Using octals (Follows binary logic)
-
-  octal  symbol equivalent 
+octal  symbol equivalent 
 0 (000)		---
 1 (001)		--x
 2 (010)		-w-
