@@ -19,5 +19,5 @@ fi
 
 # closing first if statement
 fi
-#closinf for loop
+
 done
